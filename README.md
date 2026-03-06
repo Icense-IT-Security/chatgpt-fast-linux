@@ -2,18 +2,18 @@
 
 Optimized ChatGPT setup for:
 
-- ParrotOS
-- Kali Linux
-- Debian
-- Ubuntu
+* ParrotOS
+* Kali Linux
+* Debian
+* Ubuntu
 
 ## Features
 
-- Chromium App Mode
-- uBlock Origin Lite
-- Tampermonkey optimization
-- DOM Virtualization for long chats
-- Optional Native Desktop App
+* Chromium App Mode
+* uBlock Origin Lite
+* Tampermonkey optimization
+* DOM Virtualization for long chats
+* Optional Native Desktop App
 
 ---
 
@@ -29,7 +29,9 @@ Optimized ChatGPT setup for:
 │   └── chatgpt-performance.user.js
 └── desktop/
     └── chatgpt.desktop
-...
+```
+
+---
 
 # Installation Guide (German)
 
@@ -105,7 +107,7 @@ Inhalt:
 ```ini
 [Desktop Entry]
 Name=ChatGPT
-Exec=chromium --app=https://chat.openai.com --user-data-dir=/home/chris/.chatgpt-app --ozone-platform=x11 --password-store=basic --use-gl=angle --disable-features=TranslateUI,Vulkan --disable-background-networking --disable-sync
+Exec=chromium --app=https://chat.openai.com --user-data-dir=$HOME/.chatgpt-app --ozone-platform=x11 --password-store=basic --use-gl=angle --disable-features=TranslateUI,Vulkan --disable-background-networking --disable-sync
 Type=Application
 Categories=Network;
 StartupNotify=true
@@ -147,7 +149,9 @@ chrome://extensions
 Dann:
 
 * **Userscripts zulassen aktivieren**
-  oder
+
+oder
+
 * **Entwicklermodus einschalten**
 
 ---
