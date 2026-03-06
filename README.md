@@ -8,7 +8,7 @@
 
 ```bash
 curl -s https://raw.githubusercontent.com/Icense-IT-Security/chatgpt-fast-linux/main/install.sh | bash
-
+```
 Optimized ChatGPT setup for:
 
 * ParrotOS
