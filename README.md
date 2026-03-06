@@ -2,19 +2,33 @@
 
 Optimized ChatGPT setup for:
 
-* ParrotOS
-* Kali Linux
-* Debian
-* Ubuntu
+- ParrotOS
+- Kali Linux
+- Debian
+- Ubuntu
 
 ## Features
 
-* Chromium App Mode
-* uBlock Origin Lite
-* Tampermonkey optimization
-* DOM Virtualization for long chats
-* Optional Native Desktop App
+- Chromium App Mode
+- uBlock Origin Lite
+- Tampermonkey optimization
+- DOM Virtualization for long chats
+- Optional Native Desktop App
 
+---
+
+## Repository Structure
+
+```text
+.
+├── README.md
+├── LICENSE
+├── .gitignore
+├── install.sh
+├── scripts/
+│   └── chatgpt-performance.user.js
+└── desktop/
+    └── chatgpt.desktop
 ---
 
 # Installation Guide (German)
