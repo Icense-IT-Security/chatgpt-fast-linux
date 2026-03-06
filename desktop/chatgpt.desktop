@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=ChatGPT
+Exec=chromium --app=https://chat.openai.com --user-data-dir=/home/chris/.chatgpt-app --ozone-platform=x11 --password-store=basic --use-gl=angle --disable-features=TranslateUI,Vulkan --disable-background-networking --disable-sync
+Type=Application
+Categories=Network;
+StartupNotify=true
+Terminal=false
