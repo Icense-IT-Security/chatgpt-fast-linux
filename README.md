@@ -1,3 +1,7 @@
+<p align="center">
+<img src="assets/logo.svg" width="420">
+</p>
+
 # Fast ChatGPT Setup for Linux (Chromium App Mode)
 
 Optimized ChatGPT setup for:
