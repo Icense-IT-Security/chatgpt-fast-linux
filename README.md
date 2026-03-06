@@ -29,7 +29,7 @@ Optimized ChatGPT setup for:
 │   └── chatgpt-performance.user.js
 └── desktop/
     └── chatgpt.desktop
----
+...
 
 # Installation Guide (German)
 
